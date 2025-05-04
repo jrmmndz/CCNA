@@ -442,14 +442,14 @@ Layer three/3 switch ROUTING = 300k up!!!
 !SI SWITCH ASA/DIKIT KAY EDGE PARA MAKALABAS
 conf t 
 ip routing
-ip route 0.0.0.0 0.0.0.0 10._._.1
+ip route 0.0.0.0 0.0.0.0 10.11.11.1
 end
 
 @CUCM:DEFAULT ROUTING( 0.0.0.0 0.0.0.0) FOR CUCM:
 !SI CUCM ASA/DIKIT KAY SWITCH VLAN 100 PARA MAKALABAS
 conf t
 ip routing
-ip route 0.0.0.0 0.0.0.0 10._.100.4
+ip route 0.0.0.0 0.0.0.0 10.11.100.4
 end
 
 !How to Static Route windows Server:
